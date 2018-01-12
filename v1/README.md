@@ -6,9 +6,9 @@ untuk membaca metadata suatu gambar anda bisa memakai function [exif_read_data()
 Untuk memanipulasi exif metadata anda bisa menggunakan pothoshop,exifpilot dll pada sistem operasi windows, sedangkan pada linux anda bisa menggunakan exiftool.
 Anda bisa menyisipkannya di logo atau icon pada website.
 
-```
-exiftool -Comment="scriptloger" filegambar.jpg
-```
+
+> exiftool -Comment="scriptloger" filegambar.jpg
+
 
 ### Reader
 
