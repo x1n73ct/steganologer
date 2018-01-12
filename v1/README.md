@@ -57,7 +57,7 @@ $kata[] = "t";
 $kata[] = "a";
 ```
 
-lalu sebarkan :v di beda line script asal urutannya benar pasti functionnya kembali seperti semula namun bila takut tak urut maka masukan keynya saja sehingga menjadi seperti berikut ini
+lalu sebarkan di beda line script asal urutannya benar pasti functionnya kembali seperti semula namun bila takut tak urut maka masukan keynya saja sehingga menjadi seperti berikut ini
 
 ```php
 $kata[0] = "e";
